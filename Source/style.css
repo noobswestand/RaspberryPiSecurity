@@ -1,0 +1,309 @@
+
+
+body{
+	background-color:#4c4942;
+}
+
+
+.body{
+	position:relative;
+	top:100px;
+	background-color:#706b61;
+	color:white;
+	margin: 0 auto;
+	width: 100%;
+	height:80%;
+	text-align:center;
+	display:block;
+}
+
+.nav{
+	width:100%;
+	height:100px;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.nav div{
+	display:inline-block;
+	margin-top:25px;
+	margin-left:50px;
+	margin-right:50px;
+	cursor: pointer;
+}
+.nav div h1{
+	margin:0;
+}
+
+.nav div:hover {
+  color: #3267bc;
+}
+
+.nav div:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.live{
+	color:white;
+}
+.live:hover{
+	color: black;
+	cursor:pointer;
+}
+.liveView{
+	width:500px;
+	height:400px;
+	border:none;
+	margin:auto;
+	overflow:hidden;
+}
+
+.year{
+	color:white;
+	background-color:#4c4942;
+	margin:20px;
+	transition: margin 0.2s
+}
+
+.year:hover{
+	color:#3267bc;
+	cursor: pointer;
+	margin:0px;
+}
+.year:after{
+	margin:20px;
+}
+a{
+	text-decoration: none;
+}
+.day{
+	display:inline-block;
+	width:11%;
+	background-color:#4c4942;
+	margin:5px;
+	text-decoration: none;
+	color:white;
+}
+.day p{
+	display:inline-block;
+	margin:0px;
+}
+
+.day .left{
+	text-align:left;
+	float:left;
+	font-weight:bold;
+}
+.hit:hover{
+	cursor: pointer;
+	color:#3267bc;
+}
+
+img{
+	width: 100%;
+    height: auto;
+	max-width:500px;
+}
+
+.month{
+	display:inline-block;
+	width:25%;
+	background-color:#4c4942;
+	margin:5px;
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+}
+.month:hover{
+	color:#3267bc;
+	cursor: pointer;
+}
+
+.foot {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-weight:bold;
+   z-index:5;
+}
+
+
+
+.graph {
+	width: 100%;
+	height: 200px;
+	position:relative;
+}
+.bar {
+	width: 25px;
+	background-color: #aeaeae;
+	vertical-align: baseline;
+	position:absolute;
+	bottom:0;
+	cursor: pointer;
+}
+.bar:hover{
+	background-color: #3267bc;
+}
+
+.barText{
+	position:absolute;
+	bottom:-35px;
+	text-align:center;
+	width:25px;
+	z-index:-1;
+}
+
+.barText p{
+	text-align:center;
+}
+
+
+.bar2{
+	height:100%;
+	width: 25px;
+	margin: 2px;
+	display: inline-block;
+}
+
+.barDiv{
+	height:100%;
+	width: 0px;
+	margin: 2px;
+	display: inline-block;
+	border-style: dotted;
+	border-width: 2px;
+}
+
+.ampm{
+	float:left;
+	text-align:center;
+	width:50%;
+	display: inline-block;
+}
+
+
+.pictureBody{
+	background-color:#706b61;
+}
+.pictureFrame{
+	width:100%;
+	height:250px;
+}
+i {
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+i:hover{
+	border: solid #3267bc;
+	border-width: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+.rightArrow {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+	margin-left:50%;
+	transition: all .2s ease-in-out;
+}
+.leftArrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.archiveImg{
+	width:100px;
+	padding:5px;
+	height:auto;
+	display:inline-block;
+}
+.archiveImg:hover{
+	cursor:pointer;
+}
+.archiveDiv{
+	max-width:550;
+	text-align:center;
+	margin: auto;
+}
+.archiveBack{
+	position:absolute;
+	left:5px;
+	top:0px;
+	float:left;
+	display:inline-block;
+	width:100px;
+	background-color:#4c4942;
+}
+.archiveBack:hover{
+	cursor:pointer;
+	color:#3267bc;
+}
+.archiveBack h3{
+	margin:5px;
+}
+
+select{
+	font-size:24px;
+	background-color:#4c4942;
+	color:white;
+}
+
+.settingsDay{
+	background-color:#4c4942;
+	max-width:500px;
+	margin:auto;
+	margin-top:5px;
+	display:inline-block;
+}
+.settingsTable{
+	width:100%;
+}
+
+.settingsTable	td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.popup{
+	display:none;
+	z-index:5;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.8);
+	text-align:center;
+}
+.popup img{
+	position: absolute;
+	top:150px;
+	left: calc(50% - 250px);
+	margin:auto;
+	width: 500px;
+}
+.popup p{
+	position: absolute;
+	top:125px;
+	left: calc(50% - 250px);
+	margin:auto;
+	width: 500px;
+	color:white;
+	font-weight:bold;
+}

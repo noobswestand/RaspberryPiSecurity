@@ -1,7 +1,14 @@
 # RaspberryPiSecurity
 A Simple web interfacce linked with Python and openCV for a cheap solution for home security
 
-Setting up the PI:
+## Main page
+![](https://github.com/noobswestand/RaspberryPiSecurity/raw/master/main.png)
+## Archive
+![](https://github.com/noobswestand/RaspberryPiSecurity/raw/master/select.png)
+
+
+
+## Setting up the PI:
 	Get raspbian running and get it plugged into ethernet
 	Plug in a USB webcam
 
